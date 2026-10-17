@@ -15,9 +15,9 @@
   --bg:#0b0907;
   --bg-2:#130e0a;
   --bg-3:#1a130d;
-  --lapis:#0c1530;
-  --lapis-2:#16244a;
-  --lapis-3:#2a4180;
+  --sand:#2c2216;
+  --sand-2:#56442c;
+  --sand-3:#8a7352;
   --card:rgba(255,236,200,.035);
   --card-2:rgba(255,236,200,.06);
   --line:rgba(201,162,78,.22);
@@ -86,7 +86,7 @@ section{position:relative;min-height:100vh;min-height:100svh;padding:clamp(100px
 .narrow{max-width:780px}
 .s-dark{background:var(--bg)}
 .s-brown{background:radial-gradient(120% 80% at 80% 0%,#21180f 0%,var(--bg-2) 55%,var(--bg) 100%)}
-.s-lapis{background:radial-gradient(110% 90% at 15% 10%,var(--lapis-2) 0%,var(--lapis) 45%,#080b16 100%)}
+.s-sand{background:radial-gradient(110% 90% at 15% 10%,var(--sand-2) 0%,var(--sand) 48%,#120d08 100%)}
 .s-deep{background:radial-gradient(90% 70% at 50% 40%,#1b140c 0%,var(--bg) 70%)}
 section + section::before{content:"";position:absolute;top:0;left:50%;transform:translateX(-50%);width:min(1120px,90%);height:1px;background:linear-gradient(90deg,transparent,var(--line-2),transparent);z-index:3}
 
@@ -230,7 +230,7 @@ p + p{margin-top:16px}
 
 /* ===== PROMISE products ===== */
 .prods{display:grid;gap:18px;margin-top:44px}
-.prod{display:grid;grid-template-columns:220px 1fr auto;gap:30px;align-items:center;padding:28px 32px;border:1px solid var(--line);border-radius:18px;background:rgba(5,9,22,.45);backdrop-filter:blur(6px);transition:all .7s var(--ease);position:relative;overflow:hidden}
+.prod{display:grid;grid-template-columns:220px 1fr auto;gap:30px;align-items:center;padding:28px 32px;border:1px solid var(--line);border-radius:18px;background:rgba(18,13,8,.5);backdrop-filter:blur(6px);transition:all .7s var(--ease);position:relative;overflow:hidden}
 .prod::before{content:"";position:absolute;inset:0;background:linear-gradient(100deg,transparent 30%,rgba(226,194,122,.08) 50%,transparent 70%);transform:translateX(-100%);transition:transform 1.2s var(--ease)}
 .prod:hover::before{transform:translateX(100%)}
 .prod:hover{border-color:var(--gold);transform:translateX(6px)}
@@ -602,7 +602,7 @@ p + p{margin-top:16px}
 </section>
 
 <!-- ================= V · PROMESSA ================= -->
-<section id="promessa" class="s-lapis" data-label="Grande promessa">
+<section id="promessa" class="s-sand" data-label="Grande promessa">
   <div class="deco" style="left:50%;top:10%;transform:translateX(-50%);width:min(90vw,900px);height:80%;opacity:.07">
     <svg viewBox="0 0 600 500" fill="none" stroke="currentColor" stroke-width="2"><path d="M300 20 L580 480 H20 Z"/><path d="M300 20 L340 480"/><path d="M110 330 H490" stroke-dasharray="6 8"/><path d="M190 200 H410" stroke-dasharray="6 8"/></svg>
   </div>
@@ -791,7 +791,7 @@ p + p{margin-top:16px}
 </section>
 
 <!-- ================= GLOSSÁRIO ================= -->
-<section id="glossario" class="s-lapis" data-label="Glossário">
+<section id="glossario" class="s-sand" data-label="Glossário">
   <div class="wrap">
     <div class="kicker rv">Vocabulário da marca</div>
     <h2 class="rv" style="--d:1">Glossário do <em>Império</em></h2>
@@ -814,7 +814,7 @@ p + p{margin-top:16px}
       <div class="sw rv" style="--d:0"><div style="background:#0b0907"></div><span><b>Preto profundo</b>#0B0907</span></div>
       <div class="sw rv" style="--d:1"><div style="background:#1a130d"></div><span><b>Marrom de tumba</b>#1A130D</span></div>
       <div class="sw rv" style="--d:2"><div style="background:linear-gradient(135deg,#e2c27a,#8f6e2c)"></div><span><b>Dourado envelhecido</b>#C9A24E</span></div>
-      <div class="sw rv" style="--d:3"><div style="background:#16244a"></div><span><b>Lápis-lazúli noturno</b>#16244A</span></div>
+      <div class="sw rv" style="--d:3"><div style="background:linear-gradient(135deg,#8a7352,#56442c)"></div><span><b>Areia do deserto</b>#56442C</span></div>
     </div>
     <p class="note rv" style="margin-top:14px;font-size:14px;max-width:860px">Hieróglifos e Olho de Hórus como grafismo discreto; tipografia serifada imponente nos títulos. Natalia com styling inspirado em Cleópatra nos criativos-chave (delineado, ouro, gola), sem fantasia completa nas aulas técnicas.</p>
   </div>
